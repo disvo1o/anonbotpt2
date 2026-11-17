@@ -2,3 +2,7 @@ name = "anonbotpt2"
 main = "src/index.js"
 compatibility_date = "2026-11-17"
 workers_dev = true
+
+[observability.logs]
+enabled = false
+invocation_logs = true
